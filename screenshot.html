@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>ScreenShots</title>
+</head>
+
+<body>
+  <div class="nav">
+
+
+      <nav id="navbar">
+
+        <input type="checkbox" id="Bars">
+        <label for="Bars" class="BarsButton">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <a href="main.html"><label class="icon">Variable</label></a>
+
+        <ul>
+          <li><a class="active" href="/main.html">Home</a></li>
+          <li><a href="screenshot.html">Screenshot</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="notes.html">Notes</a></li>
+        </ul>
+        
+        
+      </nav>
+
+    </div>
+<div id="HerThings">
+ 
+<img class="Picsize" src="https://i.imgur.com/KnGwW9n.jpeg" alt="MadinaMosqueA67">
+
+<button class="hideButton" onclick="ShowGSeries()">G Series</button>
+<div class="image-container">
+  
+<img class="Picsize"  src="https://i.imgur.com/Rm9faM9.jpeg" alt="MurreePortraitG86">
+
+<img class="Picsize"  src="https://i.imgur.com/xpYcwLk.jpeg" alt="EidDay2PortraitG75">
+
+</div>
+</div>
+</body>
+<script>
+  var ImagesVisible = false;
+  function ShowGSeries(){
+  var container = document.querySelector('.image-container');
+  container.style.display = (ImagesVisible) ? 'block' : 'none';
+  ImagesVisible = !ImagesVisible;
+  }
+</script>
+
+  </html>
