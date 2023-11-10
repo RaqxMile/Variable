@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    
+</head>
+<style>
+
+  #loginButton{
+    padding: 9px;
+    background-color: dodgerblue;
+    border: 0.1px solid grey;
+    border-radius: 16px;
+    width: 70vw;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    height: 38px;
+    text-align: center;
+    margin: auto;
+  }
+  .formula
+  {
+  margin-top: 200px;
+  margin-left:60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #username{width: 70vw;
+    border:1px solid grey;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 14px;
+  }
+  #password{
+    width: 70vw;
+    border:1px solid grey;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 14px; 
+  }
+  #message{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:12px;
+    margin-left:60px;
+    font-weight: bold;
+  }
+  #button{
+    background: none;
+    border: none;
+    margin-top: 27vh;
+    margin-left:120px;
+  }
+</style>
+<body>
+  <div class="formula">
+    
+ 
+    <h2>Login Page</h2>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required Placeholder="Welcome Back RaqxMile"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required placeholder="Remember Your Password?"><br><br>
+
+        <button type="button" id="loginButton">Login</button>
+    </form>
+
+    <p id="message"></p>
+
+</div>
+<button id="button" onclick="Iforgot()">forgot password?</button>
+<p id="WhatIForgot?"></p>
+    <script src="main.js"></script>
+</body>
+  </html>
+  
